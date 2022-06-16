@@ -8,11 +8,13 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
+~~~
 1.Import pandas modules to start with program.
 2.Read csv file and store it in a variable.
 3.From sklearn import label encoder to fit attribute.
 4.Import train_test_split to get train and test datasets.
 5.Using DecisionTreeRegressor predict the value.
+~~~
 ## Program:
 ```
 /*
@@ -63,6 +65,14 @@ dt.predict([[5,6]])
 ### PREDICTED VALUE
 
 ![12](https://user-images.githubusercontent.com/93427183/171547594-f123509e-6733-4bd0-a259-c6b060ce5427.png)
+
+## MSE:
+
+https://user-images.githubusercontent.com/94219798/172993284-10c89ea3-f9ac-4fbc-aacb-c582b9fb241b.png
+
+## r2:
+
+## Data Prediction::
 
 ## Result:
 Thus the program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee is written and verified using python programming.
